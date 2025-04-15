@@ -1,0 +1,72 @@
+/* Sakura Style Theme - No Images */
+
+body {
+	background-color: #fff7f9; /* 淡粉背景 */
+	font-family: 'Noto Serif JP', 'Yu Mincho', serif;
+	color: #5a3e36;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* 容器樣式 */
+  .container {
+	max-width: 800px;
+	margin: 60px auto;
+	padding: 30px;
+	background-color: #fffafc; /* 更淺的粉色背景 */
+	border-radius: 12px;
+	box-shadow: 0 4px 15px rgba(200, 150, 150, 0.15);
+	border: 1px solid #f4cdd6;
+  }
+  
+  /* 標題樣式 */
+  h1, h2, h3 {
+	color: #d17890;
+	font-weight: normal;
+	border-bottom: 1px dashed #e9a4b4;
+	padding-bottom: 5px;
+	margin-top: 1em;
+  }
+  
+  /* 段落樣式 */
+  p {
+	line-height: 1.8;
+	margin-bottom: 15px;
+  }
+  
+  /* 按鈕樣式 */
+  button, .btn {
+	background-color: #f9d5dc;
+	border: none;
+	padding: 10px 20px;
+	color: #5a3e36;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-size: 1em;
+  }
+  
+  button:hover, .btn:hover {
+	background-color: #f4b0bf;
+  }
+  
+  /* 超連結樣式 */
+  a {
+	color: #e68ca4;
+	text-decoration: none;
+	transition: color 0.2s ease;
+  }
+  
+  a:hover {
+	color: #c0667b;
+	text-decoration: underline;
+  }
+  
+  /* 頁腳樣式 */
+  footer {
+	text-align: center;
+	font-size: 0.9em;
+	margin-top: 40px;
+	color: #a87d7d;
+  }
+  
